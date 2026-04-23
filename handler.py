@@ -21,7 +21,7 @@ def start_comfyui():
             "/app/ComfyUI/main.py",
             "--listen", "0.0.0.0",
             "--port", str(COMFY_PORT),
-            "--output-directory", "/tmp/comfy_output",
+            "--output-directory", "/workspace/output",
             "--extra-model-paths-config", "/app/extra_model_paths.yaml",
         ],
         stdout=subprocess.PIPE,
