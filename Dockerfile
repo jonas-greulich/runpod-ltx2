@@ -27,6 +27,7 @@ RUN pip3 install -r requirements.txt
 COPY handler.py .
 COPY start.sh .
 COPY extra_model_paths.yaml .
+COPY test_input.json .
 
 RUN chmod +x start.sh
 
